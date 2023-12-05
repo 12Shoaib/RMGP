@@ -1,0 +1,84 @@
+.dropdown{
+    /* background-color: #464646; */
+    border: 0.01rem solid rgba(128, 128, 128, 0.8);
+    border-radius: 6px;
+    height: 3rem;
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: space-between;
+    font-size: .9rem;
+    padding: 0.2rem 1.3rem 0rem 1.3rem;
+    cursor: pointer;
+    color: #F0ECE5;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.highlighter{
+    border: 0.01rem solid rgba(128, 128, 128, 0.8);
+    outline: 0.1rem solid #E59700;
+    border-radius: 6px;
+    height: 3rem;
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: space-between;
+    font-size: .9rem;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.2rem 1.3rem 0rem 1.3rem;
+    cursor: pointer;
+    color: #F0ECE5;
+
+}
+.dropdown_icon{
+    font-size: 1.6rem;
+}
+.description{
+    position: absolute;
+    margin-bottom: 1.9rem;
+    color: darkgray;
+}
+.dropdown_options{
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    border-radius: 6px;
+    position: absolute;
+    margin-top: 0.2rem;
+    cursor: pointer;
+    background-color: #4d577a61;
+    font-size: .9rem;
+    animation: selectedAnimation 0.4s ease-out;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+@keyframes selectedAnimation {
+    from {
+      background-color: #4646462a;
+    }
+    to{
+        background-color: #4d577a61;
+
+    }
+  }
+.option{
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1.3rem;
+    border-radius: 6px;
+}
+.option:hover{    
+    background-color: #4d577a61;
+    padding-left: 1.3rem;
+    border-radius: 6px;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+}

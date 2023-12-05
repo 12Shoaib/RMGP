@@ -1,0 +1,54 @@
+.progress_group{
+    margin-top: 3rem;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.circle {
+    background-color: #4D577A;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-transform: capitalize;
+}
+.line{
+    border: 0.01rem solid #4d577a55;
+    position:absolute;
+    height: 2rem;
+    margin-left: 1rem;
+    margin-top: 4rem;
+}
+.line_highlighter{
+    border: 0.01rem solid #cdced0;
+    position:absolute;
+    height: 2.5rem;
+    margin-left: 1rem;
+    margin-top: 3.5rem;
+    animation: fillAnimation 1s linear
+}
+@keyframes fillAnimation {
+    from {
+    border: 0.01rem solid #4d577a55;
+    }
+    to {
+        border: 0.01rem solid #cdced0;
+    }
+  }
+.icon{
+    font-size: 1.2rem;
+}

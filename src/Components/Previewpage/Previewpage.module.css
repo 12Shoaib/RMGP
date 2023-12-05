@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 0.01rem solid yellowgreen; */
+    width: 40%;
+}
+.pagePreview{
+    height: 40rem;
+    width: 30rem;
+    background-color: white;
+    color: black;
+}
+.heading{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    margin-left: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.sub_heading_one{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-left: 5.5rem;
+}
+.sub_heading_two{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-left: 8.5rem;
+}
+.sub_heading_three{
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 6.8rem;
+}
+.text{
+    font-size: .8rem ;
+    font-weight: 500; 
+    display: inline;
+}
+.side_heading{
+    font-size: 0.9rem;
+}
+.location {
+    font-size: 0.9rem;  
+    color: gray;
+}
+.content{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}

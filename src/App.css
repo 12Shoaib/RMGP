@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.root-container{
+    background-color: #040D12;
+    color: #F0ECE5;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+.partition-one{
+    flex: 0.3;
+    padding-left: 2.5rem;
+    background-color: #212d59;
+}
+.partition-two{
+    flex: 2;
+    /* border: 0.01rem solid red; */
+    display: flex;
+    /* padding: 6rem 0rem 0rem 6rem; */
+}
+.header{
+    margin-top: 1rem;
+    display: flex;
+    width: 13.5rem;
+    height: fit-content;
+}
+.title{
+    padding: 0;
+    margin: 0;
+    padding-top:1.2rem;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.icon {
+    font-size: 4.8rem;
+}

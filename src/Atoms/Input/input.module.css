@@ -1,0 +1,48 @@
+.container{
+    height: 5rem;
+    display: flex;
+    gap: 0.3rem;
+    flex-direction: column;
+    width: fit-content;
+}
+.input_box{
+    height: 2.8rem;
+    width: 17rem;
+    font-size: 0.9rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    border-radius: 6px;
+    outline: none;
+    background-color: transparent;
+    border: 0rem solid #5C8374;
+    color: #F0ECE5;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.label{
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.icon{
+    color: #97eca3;
+    margin-right: 0.5rem;
+}
+.input_container{
+    border: 0.01rem solid #5C8374;
+    border: 0.01rem solid rgba(128, 128, 128, 0.8);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    width: 18rem;
+}
+.input_container_focused{
+    outline: 0.1rem solid #E59700;
+    border: 0.01rem solid #5C8374;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    width: 18rem;
+}
